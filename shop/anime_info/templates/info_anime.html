@@ -1,0 +1,66 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>О нас</title>
+    <link rel="stylesheet" href="{% static 'css/anime_info.css'%}" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+
+<style>
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #9932CC;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FF4500;
+}
+
+.active {
+    background-color: #FF4500;
+}
+</style>
+</head>
+<body>
+
+<ul>
+  <li><a class="active" href="http://127.0.0.1:8000">KAWAI</a></li>
+  <li><a href="http://127.0.0.1:8000/shop/">Наша продукция</a></li>
+  <li><a href="http://127.0.0.1:8000/info/">О нас</a></li>
+  <li><a href="">Войти</a></li>
+</ul>
+<div class="block_info">
+
+<h1>Почему выбирают нас?</h1><br>
+    <p align="normal" style="color:#FF4500; font-family: cursive;  font-size:15px">
+     Наше основное преимущество в том, что интернет-магазин является официальной<br>юридически зарегистрированной компанией, а значит несет полную ответственность <br>перед покупателями за свою деятельность. Мы с полной серьезностью относимся к<br> каждому этапу покупки, начиная с выбора интересующих товаров до их <br>передачи покупателю.<br><br>
+Большое внимание уделяется качеству и предоставлению полной информации о <br>каждом продукте в нашем магазине. На странице любого товара представлено <br>достоверное описание, актуальные фотографии и рекомендации. Если товар имеет <br>какие-либо дефекты, например повреждение или износ упаковки, отсутствие <br>частей комплектации, то данная информация указана в специальном блоке.<br><br>
+Обращаем ваше внимание, что почти все фотографии мы делаем самостоятельно,<br> а значит, покупатели всегда имеют достоверную информацию о внешнем виде товара <br>и его комплектации. Специально для удобства общения существует страничка <br>«Обратная связь», на которой можно задать любые интересующие вопросы о <br>товаре.<br><br>
+Мы постоянно стараемся расширять ассортимент магазина, включая новинки, <br>лимитированные издания и редкую продукцию, давно вышедшую из производства.<br><br>
+
+
+</p>
+
+</div>
+
+
+</body>
+</html>
